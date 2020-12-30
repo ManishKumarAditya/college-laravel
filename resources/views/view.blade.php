@@ -48,7 +48,7 @@ this is|homepage
                     </div>
                     <div class="text-center">
                         <a href="" class="btn btn-danger">View</a>
-                        <a href="{{route('edit',['id'=>$item->id])}}" class="btn btn-danger">Edit</a>
+                        <a href="{{route('edit',['id'=>$c->id])}}" class="btn btn-danger">Edit</a>
                         <a href="{{route('destroy',['id'=>$c->id])}}" class="btn btn-danger">Delete</a>
                     </div>
                 </div>
